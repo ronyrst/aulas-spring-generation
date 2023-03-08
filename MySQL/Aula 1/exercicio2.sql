@@ -79,7 +79,7 @@ VALUES (
 	'Pão Integral com Grãos',
     'Seven Boys',
     11.30,
-    '12345678901234567890123456789023'
+    '41091905712905719431921075151243'
 );
 
 SELECT * FROM tb_produtos WHERE preco > 500;
