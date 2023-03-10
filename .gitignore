@@ -5,6 +5,13 @@ bin/
 
 #===========
 
+# Conteúdos do MySQL
+
+*.mwb
+*.bak
+
+#===========
+
 # Compiled class file
 *.class
 
