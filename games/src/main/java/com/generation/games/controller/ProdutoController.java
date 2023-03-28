@@ -65,7 +65,7 @@ public class ProdutoController {
 	public ResponseEntity<Produto> put(@Valid @RequestBody Produto produto) {
 		if(produtoRepository.existsById(produto.getId())) {
 			
-			if(produtoRepository.existsById(produto.getCategoria().getId()))
+			if(categoriaRepository.existsById(produto.getCategoria().getId()))
 				return ResponseEntity.status(HttpStatus.OK)
 						.body(produtoRepository.save(produto));
 			
